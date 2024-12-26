@@ -9,11 +9,11 @@ let td = new Date()
 //$id('jssj2').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 
 //发起申请的时间,2小时38分钟之前
-td.setMinutes(td.getMinutes() - 15)
-$id('fqsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
+//td.setMinutes(td.getMinutes() - 15)
+//$id('fqsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 //审批通过时间，1小时19分钟之前
-td.setMinutes(td.getMinutes() - 10)
-$id('spsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
+//td.setMinutes(td.getMinutes() - 10)
+//$id('spsj').innerHTML = `${zero(td.getMonth())}-${zero(td.getDay())} ${zero(td.getHours())}:${zero(td.getMinutes())}`
 
 //如何销假？
 $id('rhxj').onclick = ()=>{
